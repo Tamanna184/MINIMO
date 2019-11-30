@@ -1,0 +1,175 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+    width: auto;
+}
+
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+/* header Section start*/
+.header {
+    background: #ffff;
+}
+
+.header .container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+
+.header .container .row {
+    display: flex;
+}
+
+.header .container .logo {
+    max-width: 30%;
+    flex-basis: 30%
+}
+
+.container .logo img {
+    width: 185px;
+    margin: auto 50px;
+}
+
+.menu {
+    max-width: 70%;
+    flex-basis: 70%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* header Section End*/
+/* Content Section Start*/
+.content {
+    width: auto;
+}
+
+.content .container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.content .content-box {}
+
+.content-box h2 {
+    color: #ee9ca7;
+    padding-bottom: 20px;
+}
+
+.content-box h1 {
+    font-family: cursive;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.content-box p {
+    text-align: justify;
+    text-decoration-style: solid;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+.content-box span {
+    color: #a8afbb;
+    font-size: 20px;
+}
+
+/* Content Section End*/
+/* Blog section Start */
+.blog-area{
+    padding-top: 100px;
+}
+.blog-area .container{
+    width: 80%;
+    margin: 0 auto;
+}
+.blog-area .row{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-area p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+.blog-area .blog1{
+    width: 45%;
+}
+.blog-area .blog2{
+    width: 45%;
+}
+.blog-area img{
+    width: 100%;
+}
+/*Blog section end*/
+/* Footer section start*/
+.footer-area{
+    padding: 20px 0;
+    font-size: 20px;
+}
+.footer-area .container{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-area .row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-area.left{
+    width: 50%;
+}
+.footer-area .right{
+    width: 40%;
+    display: grid;
+    justify-content: flex-end;
+}
+.footer-area ul li a{
+    color: #696969;
+}
+.footer-area ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.footer-area ul li:first-child{
+    padding-left: 0;
+}
+.footer-area ul li:last-child{
+    padding-right: 0;
+}
+/*footer section End*/
+
+
+
+
+
+
+
+
+
